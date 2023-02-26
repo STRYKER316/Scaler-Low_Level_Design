@@ -1,6 +1,6 @@
-package AccessModifiersCheck;
+package accessModifiersCheck;
 
-import AccessModifiers.Student;
+import accessModifiers.Student;
 
 public class StudentChild extends Student {
 

@@ -1,4 +1,4 @@
-package AccessModifiers;
+package accessModifiers;
 
 public class StudentChild extends Student {
     public void doStuff() {

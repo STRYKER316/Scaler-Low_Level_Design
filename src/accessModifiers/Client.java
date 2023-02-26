@@ -1,4 +1,4 @@
-package AccessModifiers;
+package accessModifiers;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package AccessModifiers;
+package accessModifiers;
 
 public class Student {
     private String name;

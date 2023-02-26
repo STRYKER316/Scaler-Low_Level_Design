@@ -1,4 +1,4 @@
-package IntroToOOP;
+package introToOOP;
 
 public class Student {
     String name;
