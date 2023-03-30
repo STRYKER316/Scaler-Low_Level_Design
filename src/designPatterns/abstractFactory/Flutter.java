@@ -1,7 +1,7 @@
 package designPatterns.abstractFactory;
 
 public class Flutter {
-    private SupportedPlatforms platform;
+    private SupportedPlatforms platform = null;
 
     public Flutter(SupportedPlatforms platform) {
         this.platform = platform;
@@ -16,8 +16,7 @@ public class Flutter {
     }
 
     public UIFactory createUIFactory() {
-        UIFactory uiFactory = UIFactoryFactory.getUIFactory(this.platform);
-        return uiFactory;
+        return UIFactoryFactory.getUIFactory(this.platform);
     }
 
 }
