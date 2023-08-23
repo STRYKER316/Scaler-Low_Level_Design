@@ -6,5 +6,4 @@ public class Student {
     double psp;
     String universtiyName;
 
-
 }
