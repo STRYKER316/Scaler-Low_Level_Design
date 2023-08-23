@@ -10,7 +10,7 @@ public class Student {
     public Student(String studentName, String univName) {
         name = studentName;
         universtiyName = univName;
-        System.out.println("This si constructor1");
+        System.out.println("This is constructor1");
     }
 
     public Student(String studentname) {
