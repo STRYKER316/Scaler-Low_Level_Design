@@ -7,7 +7,7 @@ public class DBConnection {
     private static DBConnection connectionInstance = new DBConnection();
 
     private DBConnection() {
-
+        // Code for DBConenction object creation
     }
 
 //    slow startup and no customization possible for constructor
